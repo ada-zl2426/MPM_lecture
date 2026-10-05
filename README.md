@@ -20,4 +20,5 @@ Learning git basics for the first time
 12) "git push -u origin new_branch_name" so that uplink can be establish to push via new_branch_name
 13) "git branch -d my_new_branch is used to delete "my_new_branch" branch
 14) "git pull" is used to pull new changes from repo to local machine
-15) 
+
+Learning Virtual Environment
