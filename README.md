@@ -30,6 +30,6 @@ Learning Virtual Environment
 5)  "python3 -m venv foo" -> used to create a virtual environment "foo" in your directory
 6)  "source foo/bin/activate" -> used to activate virtual environment
 7)  "deactivate" -> deactivate environment
-7)  "pip freeze > requirements.txt" -> creates a requirements.txt which can be used to install in new environments if needed
-8)  "pip install -r requirements.txt" -> install packages in new environment
-9)  ".toml" consist of your project version while "yml" conists of the version and packages in the environment.
+8)  "pip freeze > requirements.txt" -> creates a requirements.txt which can be used to install in new environments if needed
+9)  "pip install -r requirements.txt" -> install packages in new environment
+10)  ".toml" consist of your project version while "yml" conists of the version and packages in the environment.
