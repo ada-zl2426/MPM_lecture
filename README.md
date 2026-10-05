@@ -8,3 +8,4 @@ Learning git basics for the first time
 4) "git diff" command to check what are the new changes
 5) "git add" command to stage the files
 6) "git commit" command to checkpoint the changes
+7) "git push" command to push the edited files up to github
