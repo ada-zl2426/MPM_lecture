@@ -10,4 +10,5 @@ Learning git basics for the first time
 5) "git add" command to stage the files
 6) "git commit" command to checkpoint the changes
 7) "git push" command to push the edited files up to github
-8) .gitignore is used so that github ignore the untracked files listed inside
+8) "git log" is used to monitor the history of commits
+9) .gitignore is used so that github ignore the untracked files listed inside
