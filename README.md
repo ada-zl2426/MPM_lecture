@@ -32,4 +32,4 @@ Learning Virtual Environment
 7)  "deactivate" -> deactivate environment
 7)  "pip freeze > requirements.txt" -> creates a requirements.txt which can be used to install in new environments if needed
 8)  "pip install -r requirements.txt" -> install packages in new environment
-9) 
+9)  ".toml" consist of your project version while "yml" conists of the version and packages in the environment.
