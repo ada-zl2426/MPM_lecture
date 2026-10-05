@@ -27,5 +27,9 @@ Learning Virtual Environment
 3)  "which python" allows us to see which python executable the terminal used.
 4)  Do not develop projects with system python
     - /usr/bin/python3
-5) "python3 -m venv foo" -> used to create a virtual environment "foo" in your directory
-6) 
+5)  "python3 -m venv foo" -> used to create a virtual environment "foo" in your directory
+6)  "source foo/bin/activate" -> used to activate virtual environment
+7)  "deactivate" -> deactivate environment
+7)  "pip freeze > requirements.txt" -> creates a requirements.txt which can be used to install in new environments if needed
+8)  "pip install -r requirements.txt" -> install packages in new environment
+9) 
