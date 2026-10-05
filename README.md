@@ -22,3 +22,10 @@ Learning git basics for the first time
 14) "git pull" is used to pull new changes from repo to local machine
 
 Learning Virtual Environment
+1)  A virtual environment is a separate, isolated Python setup for a project.
+2)  "echo $PATH"" is to find the path where the terminal look for executable program.
+3)  "which python" allows us to see which python executable the terminal used.
+4)  Do not develop projects with system python
+    - /usr/bin/python3
+5) "python3 -m venv foo" -> used to create a virtual environment "foo" in your directory
+6) 
