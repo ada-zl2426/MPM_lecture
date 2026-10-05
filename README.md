@@ -13,3 +13,8 @@ Learning git basics for the first time
 8) "git log" is used to monitor the history of commits
     - --oneline short hash that identifies each commit
 9) .gitignore is used so that github ignore the untracked files listed inside
+10) "git switch -c my-branch" is to create a new branch called my-branch
+    - Note: Branch is created for developers to build on top of main without changing main code
+10) "git branch" is used to check which branch you are on
+11) "git switch xxx" is to switch to xxx branch
+12) "git push -u origin new_branch_name" so that uplink can be establish to push via new_branch_name
