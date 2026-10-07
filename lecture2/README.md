@@ -38,6 +38,19 @@ Learning numpy basics
 28) rng = np.random.default_rng() -> use numpy to create a random number generator
     - a = rng.random(10) -> uniform distribution from (0, 1)
     - s = rng.normal(loc=5, scale=2, size=(5, 5)), loc=mean, scale=SD
-29) 
-
+29) np.savetxt(
+        'savedata.txt',
+        np.stack((x, y), axis=1),
+        header='DATA',
+        footer='END',
+        fmt='%d %1.4f'
+    )
+    - create a txt file with #DATA as header #END as end
+    - stack means combine both array in new dim
+30) np.save()  -> save array into a numpy file
+31) np.load()  -> load the numpy file 
+32) import numpy.linalg as la -> import LA capabilities
+33) la.norm -> find norm of vector, la.solve-> Ax=B, solve x, la.det-> determinant, la.inv -> find inverse, la.eig -> get eigenvalues and eigenvectors
+34) %timeit -n <iterations> -r <repeats>  <code_snippet> -> repeat X iterations R times and measure the mean time and SD
+35) p = Polynomial([0, 1, 0, -1/3]) -> \[p(x)=0+1x+0x^2-\frac13x^3\]
 
