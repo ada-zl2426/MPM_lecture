@@ -54,3 +54,7 @@ Learning numpy basics
 34) %timeit -n <iterations> -r <repeats>  <code_snippet> -> repeat X iterations R times and measure the mean time and SD
 35) p = Polynomial([0, 1, 0, -1/3]) -> \[p(x)=0+1x+0x^2-\frac13x^3\]
 
+Learning Scipy library
+
+1)  import scipy.linalg as sla -> more functions as compared to numpy.linalg
+2)  
