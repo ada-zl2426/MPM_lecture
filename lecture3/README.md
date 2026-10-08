@@ -61,4 +61,20 @@
 
     Example:    %lprun -f estimate_pi estimate_pi(10000)
 
-11) 
+11) @functools.cache -> save the previous results so recalculation can be avoided
+12) Generator expression -> way to produce values one at a time instead of creating and storing an entire list in memory.
+
+    Example:
+    numbers = (x**2 for x in range(5)) #Generator expression
+    In order to access the elements inside we need to use next(), after the last number is generated it would show StopIteration
+
+    -> Generator functions
+    Example:
+    def reverse_list(x):
+    for i in range(len(x) - 1, -1, -1):
+        yield x[i]
+
+    x = [1, 2, 3, 4]
+    list(reverse_list(x))
+
+    yield generates values one at a time
